@@ -1,7 +1,5 @@
-ul{
-    text-align: right;
-}
-li{
-    list-style: none;
-    display: inline-block;
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
