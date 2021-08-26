@@ -9,18 +9,18 @@ header{
 }
 
 .Accomodations{
-    margin: 0px 30px;
+    margin: 0px 15px;
 }
 
 .activities{
-    margin: 0px 30px;
+    margin: 0px 15px;
 }
 
 .signup{
-    margin: 0px 30px;
+    margin: 0px 15px;
 }
 
 .container{
     border: 2px solid black;
-    display: flex;
+    
 }
