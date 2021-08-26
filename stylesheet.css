@@ -21,9 +21,23 @@ header{
 }
 
 .container{
-    background-color: #F2F2F2;
-    width: 300px;
-    height: 200px;
+    display: flex;
+    width: auto;
+    height: auto;
     margin: auto;
+    justify-content: space-between;
+}
+
+.section1{
+    background-color:#F2F2F2;
+    width: 66%;
+    height: 400px;
+    border-radius:1em;
+}
+
+.section2{
+    background-color: #F2F2F2;
+    width: 33%;
+    height: 400px;
     border-radius: 1em;
 }
