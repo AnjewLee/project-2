@@ -50,6 +50,8 @@ header{
     padding-right: 10px;
     left: -10px;
     position: relative;
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 .button.familyfriendly:before{
@@ -58,6 +60,8 @@ header{
     padding-right: 10px;
     left: -10px;
     position: relative;
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 .button.romantic:before{
@@ -66,6 +70,8 @@ header{
     padding-right: 10px;
     left: -10px;
     position: relative;
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 .button.petsallowed:before{
@@ -74,6 +80,8 @@ header{
     padding-right: 10px;
     left: -10px;
     position: relative;
+    color: #0065FC;
+    background-color: #DEEBFF;
 }
 
 .container{
