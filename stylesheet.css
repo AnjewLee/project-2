@@ -3,3 +3,24 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+
+.nav{
+    display:flex;
+}
+
+.Accomodations{
+    margin: 0px 30px;
+}
+
+.activities{
+    margin: 0px 30px;
+}
+
+.signup{
+    margin: 0px 30px;
+}
+
+.container{
+    border: 2px solid black;
+    display: flex;
+}
