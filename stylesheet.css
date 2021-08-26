@@ -16,6 +16,7 @@ header{
 .Accomodations:hover{
     color:#0065FC;
     cursor: pointer;
+    text-decoration: overline;
 }
 
 .activities{
@@ -25,6 +26,7 @@ header{
 .activities:hover{
     color:#0065FC;
     cursor: pointer;
+    text-decoration: overline;
 }
 
 .signup{
@@ -34,8 +36,8 @@ header{
 }
 
 .signup:hover{
-    columns: #0065FC;
     cursor: pointer;
+    text-decoration: overline;
 }
 
 .filters{
