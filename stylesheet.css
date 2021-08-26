@@ -48,24 +48,32 @@ header{
     content: '\f53a';
     font-family: FontAwesome;
     padding-right: 10px;
+    left: -10px;
+    position: relative;
 }
 
 .button.familyfriendly:before{
     content: '\f1ae';
     font-family: FontAwesome;
     padding-right: 10px;
+    left: -10px;
+    position: relative;
 }
 
 .button.romantic:before{
     content: '\f004';
     font-family: FontAwesome;
     padding-right: 10px;
+    left: -10px;
+    position: relative;
 }
 
 .button.petsallowed:before{
     content: '\f6d3';
     font-family: FontAwesome;
     padding-right: 10px;
+    left: -10px;
+    position: relative;
 }
 
 .container{
