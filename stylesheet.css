@@ -34,6 +34,7 @@ li#signup{
 
 .filters{
     font-family: 'Raleway', sans-serif;
+    font-weight: bold;
 }
 
 button{
@@ -47,6 +48,7 @@ button{
     display: inline-block;
     cursor: pointer;
     height: 44px;
+    padding: 0 7;
 }
 
 button:hover {
@@ -55,21 +57,26 @@ button:hover {
 	color: black;
 }
 
+p{
+    font-family: 'Raleway', sans-serif;
+}
 
 i{
     left: -10px;
     position: relative;
     color: #0065FC;
     background-color: #DEEBFF;
-    padding: 13px;
+    padding: 14px;
     border-radius: 50px;
 }
 
-p{
+i.fas.fa-info.fa-xs{
     border: 2px solid grey;
     border-radius: 5100px;
     padding: 0 4;
+    margin-left: 10px;
 }
+
 
 .container{
     display: flex;
