@@ -18,6 +18,7 @@ li{
 li a{
     text-align: center;
     padding: 14px 16px;
+    text-decoration: none;
 }
 
 li a:hover{
@@ -64,6 +65,12 @@ i{
     border-radius: 50px;
 }
 
+p{
+    border: 2px solid grey;
+    border-radius: 5100px;
+    padding: 0 4;
+}
+
 .container{
     display: flex;
     width: auto;
@@ -87,7 +94,6 @@ i{
 }
 
 * { 
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
