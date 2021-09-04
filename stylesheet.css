@@ -1,40 +1,52 @@
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-ul{
-    list-style-type: none;
+* { 
     margin: 0;
-    padding: 0;
+    padding: 0  ;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
-li{
-    float: left;
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 1rem;
 }
 
-li a{
+.nav-links{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    float: left;
 }
 
-li a:hover{
+nav a:hover{
     color:#0065FC;
     cursor: pointer;
     text-decoration: overline;
 }
 
-li#signup{
+nav a#signup{
     color: #0065FC;
     font-weight: bold; 
 }
 
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
 .filters{
-    font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    display: flex;
+    align-items: center;
 }
 
 button{
@@ -44,8 +56,6 @@ button{
     margin: 0 5px;
     text-align: center;
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
-    display: inline-block;
     cursor: pointer;
     height: 44px;
     padding: 0 7;
@@ -55,10 +65,6 @@ button:hover {
     border-radius: 50px;
     background:#DEEBFF;
 	color: black;
-}
-
-p{
-    font-family: 'Raleway', sans-serif;
 }
 
 i{
@@ -100,10 +106,7 @@ i.fas.fa-info.fa-xs{
     border-radius: 1em;
 }
 
-* { 
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 .footer-container{
     background-color: #F2F2F2;
@@ -129,7 +132,6 @@ i.fas.fa-info.fa-xs{
     display: flex;
     flex-direction: column;
     margin-right: 4rem;
-    font-family: 'Raleway', sans-serif;
 }
 
 .footer-heading h2{
