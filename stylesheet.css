@@ -158,16 +158,19 @@ i.fas.fa-info.fa-xs{
     background-color:#F2F2F2;
     width: 66%;
     height: 400px;
-    border-radius:1em;
+    border-radius:1rem;
 }
 
 .section2{
     background-color: #F2F2F2;
     width: 33%;
     height: 400px;
-    border-radius: 1em;
+    border-radius: 1rem;
 }
 
+.item3{
+    display: flex;
+}
 
 
 .footer-container{
