@@ -3,6 +3,7 @@
     padding: 0  ;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
 }
 
 nav{
@@ -42,6 +43,43 @@ nav a#signup{
     flex-direction: column;
     padding: 1rem;
 }
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    padding: 0rem;
+    border-radius: 1rem;
+    border: 1px solid #F2F2F2;
+}
+
+input {
+    margin: 0px 2px;
+    width: 100%;
+    border: none;
+    outline: none;
+   
+}
+
+.fas.fa-map-marker-alt{
+    background:#F2F2F2;
+    padding: 17px 15px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin: 0 0 0 -1;
+}
+
+.search-button{
+    background:#0065FC;
+    padding: 16px 15px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    margin: -1 -1 -1 1;
+    font-weight: bold;
+    color: white;
+}
+
 
 .filters{
     font-weight: bold;
