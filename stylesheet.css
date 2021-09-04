@@ -50,6 +50,7 @@ nav a#signup{
 
 .top p{
     margin: .5rem 1rem .5rem 1rem;
+    font-size: 0.90rem;
 }
 
 .search-bar {
@@ -118,7 +119,7 @@ button:hover {
 	color: black;
 }
 
-i{
+.filters i{
     left: -10px;
     position: relative;
     color: #0065FC;
@@ -130,10 +131,20 @@ i{
 i.fas.fa-info.fa-xs{
     border: 2px solid grey;
     border-radius: 5100px;
-    padding: 0 4;
-    margin-left: 10px;
+    padding: 3 7;
+    margin: 0rem 1rem 1rem 1rem;
 }
 
+.info{
+    display: flex;
+    justify-content: flex start;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.info a{
+    font-size: 0.90rem;
+}
 
 .container{
     display: flex;
@@ -185,7 +196,7 @@ i.fas.fa-info.fa-xs{
     margin-right: 4rem;
 }
 
-.footer-heading h2{
+.footer-heading h1{
     margin-bottom: 2rem;
 }
 
