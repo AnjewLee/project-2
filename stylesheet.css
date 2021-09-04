@@ -44,6 +44,14 @@ nav a#signup{
     padding: 1rem;
 }
 
+.top h1{
+    margin: .5rem 1rem 0rem 1rem;
+}
+
+.top p{
+    margin: .5rem 1rem .5rem 1rem;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
@@ -52,6 +60,7 @@ nav a#signup{
     padding: 0rem;
     border-radius: 1rem;
     border: 1px solid #F2F2F2;
+    margin: 1rem;
 }
 
 input {
@@ -85,6 +94,7 @@ input {
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin: 1rem;
 }
 
 button{
@@ -97,6 +107,9 @@ button{
     cursor: pointer;
     height: 44px;
     padding: 0 7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 button:hover {
