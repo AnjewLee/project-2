@@ -168,8 +168,12 @@ i.fas.fa-info.fa-xs{
     border-radius: 1rem;
 }
 
-.item3{
+.item{
     display: flex;
+}
+
+span.caption{
+    
 }
 
 
