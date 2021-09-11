@@ -168,6 +168,17 @@ i.fas.fa-info.fa-xs{
     margin: 1rem;
 }
 
+.accomodations{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.part1{
+    height: 100px; 
+    width: 150px; 
+}
+
 .section2{
     background-color: #F2F2F2;
     width: 33%;
