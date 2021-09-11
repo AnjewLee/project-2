@@ -179,6 +179,16 @@ i.fas.fa-info.fa-xs{
     width: 150px; 
 }
 
+.popular{
+    display: flex;
+    flex-direction: column;
+}
+
+.part2{
+    height: 100px; 
+    width: 150px; 
+}
+
 .section2{
     background-color: #F2F2F2;
     width: 33%;
