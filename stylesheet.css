@@ -162,8 +162,8 @@ i.fas.fa-info.fa-xs{
 
 .container{
     display: flex;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
     margin: auto;
     justify-content: space-between;
 }
