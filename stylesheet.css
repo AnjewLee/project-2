@@ -485,6 +485,13 @@ i.fas.fa-chart-line{
         flex-wrap: wrap;
     }
 
+    .hero-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center
+    }
+    
     .container{
         display: flex;
         flex-direction: column-reverse;
@@ -506,6 +513,7 @@ i.fas.fa-chart-line{
         flex-wrap: wrap;
         flex-direction: row;
     }
+    
 
     .line1{
         display: flex;
@@ -576,5 +584,6 @@ i.fas.fa-chart-line{
         justify-content: flex-start;
     }
 
+ 
 }
 
