@@ -475,6 +475,10 @@ i.fas.fa-chart-line{
         width: fit-content;
     }
 
+    .top p{
+        width: 100%;
+    }
+
     .search-bar{
         width: fit-content;
     }
@@ -491,7 +495,7 @@ i.fas.fa-chart-line{
         flex-wrap: wrap;
         align-content: center
     }
-    
+
     .container{
         display: flex;
         flex-direction: column-reverse;
