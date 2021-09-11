@@ -426,7 +426,6 @@ i.fas.fa-chart-line{
 
 .footer-container{
     background-color: #F2F2F2;
-    padding-bottom: 4rem;
     width: auto;
     height: auto;
     margin: auto;
@@ -437,7 +436,6 @@ i.fas.fa-chart-line{
     display: flex;
     background-color: #F2F2F2;
     width: 80%;
-    height: 40vh;
     justify-content: center;
     flex-wrap: wrap;
     margin:0 auto;
@@ -463,6 +461,7 @@ i.fas.fa-chart-line{
 
 
 @media all and (min-width: 414px) and (max-width: 767px){
+    
     nav{
         display: flex;
         flex-direction: column;
@@ -513,21 +512,69 @@ i.fas.fa-chart-line{
         flex-direction: row;
         flex-wrap: wrap;
         width: auto;
+        align-items: center;
+        margin: 1rem;
+        width: 370px;
+        border-radius: 1rem solid black;
+        padding: 4px;
     }
 
+    .i1{
+        border: 1px solid #F2F2F2;
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+    
+
+    .part1{
+        height: 150px; 
+        width: 300px; 
+    }
+
+    #show{
+        padding:0 1.5rem;
+    }
+     
     
     .section3{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: fit-content;
     }
 
+    .section3 h1{
+        padding: 0 2rem;
+    }
 
-    
+    .activities{
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
 
+    #oldport,#pomegue,#frioul,#calanques,#notre,#longchamp{
+        height: 150px; 
+        width: 300px; 
 
+    }
+
+    .footer-container{
+        width: auto;
+        height: auto;
+        margin: auto;
+        padding:3rem 0rem 0rem 0rem;
+
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 
 }
-
-
 
