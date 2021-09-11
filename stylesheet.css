@@ -168,9 +168,14 @@ i.fas.fa-info.fa-xs{
     margin: 1rem;
 }
 
+.section1 h1{
+    margin: 2rem 1rem 1.5rem 1.5rem;
+}
+
 .accomodations{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 
 }
 
@@ -180,9 +185,25 @@ i.fas.fa-info.fa-xs{
     object-fit: cover;
 }
 
+.section2 a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2 h1{ 
+    margin: 2rem 1rem 1.5rem 1.5rem;
+
+}
+
+i.fas.fa-chart-line{
+    margin: 2rem 1.5rem 1.5rem 1rem;
+}    
 .popular{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .part2{
