@@ -176,7 +176,12 @@ i.fas.fa-info.fa-xs{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    flex: 1;
 
+}
+
+.i1{
+    flex: 1;
 }
 
 .part1{
@@ -322,7 +327,7 @@ i.fas.fa-chart-line{
     margin: 1rem;
 }
 
-.caption{
+.caption3{
     font-weight: bold;
     padding: 1rem;
     border: 1px solid #F2F2F2;
