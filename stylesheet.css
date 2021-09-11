@@ -191,9 +191,8 @@ i.fas.fa-info.fa-xs{
 .i1{
     margin: 0rem 1rem 1rem 1.5rem;
     background-color: white;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-    padding: 5px;
+    border-radius: 1rem;
+    padding: 5px 3px;
 }
 
 .part1{
@@ -202,6 +201,32 @@ i.fas.fa-info.fa-xs{
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+}
+
+.caption1 h2{
+    font-size: 0.6rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.caption1 p{
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin: 0rem 0.5rem;
+}
+
+.rating1{
+    margin: 0rem 0.5rem;
+}
+
+
+.fa.fa-star{
+    color: #f2f2f2;
+    font-size: 0.75rem;
+    margin: -1px;
+}
+
+.fa.fa-star.checked{
+    color: #0065FC;
 }
 
 .section2 a{
