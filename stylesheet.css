@@ -189,7 +189,7 @@ i.fas.fa-info.fa-xs{
 }
 
 .section3 h1{
-    margin: 1rem;
+    margin: 1rem 1rem 0rem 1rem;
 }
 
 .activities{
@@ -198,6 +198,9 @@ i.fas.fa-info.fa-xs{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: auto;
+    height: auto;
+    margin: auto;
     
 }
 
