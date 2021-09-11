@@ -177,6 +177,7 @@ i.fas.fa-info.fa-xs{
 .part1{
     height: 100px; 
     width: 150px; 
+    object-fit: cover;
 }
 
 .popular{
@@ -187,6 +188,7 @@ i.fas.fa-info.fa-xs{
 .part2{
     height: 100px; 
     width: 150px; 
+    object-fit: cover;
 }
 
 .section2{
