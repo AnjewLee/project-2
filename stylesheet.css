@@ -15,7 +15,7 @@ html, body{
 }
 
 
-nav{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,17 +23,18 @@ nav{
     padding: 1rem;
 }
 
-.nav-links ul{
-    margin: 0;
-    padding: 0;
+.logo{
     display: flex;
+    align-items: center;
 }
 
-.nav-links li{
-    list-style: none;
+#sign1{
+    margin: 0 0 0 190px
 }
 
-.nav-links li a{
+
+nav{
+    display: flex;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -47,9 +48,14 @@ nav a:hover{
     text-decoration: overline;
 }
 
-nav a#signup{
+.signup{
     color: #0065FC;
     font-weight: bold; 
+    
+}
+
+.nav-links a{
+    margin: 0 20px 0 0;
 }
 
 .top{
@@ -462,12 +468,16 @@ i.fas.fa-chart-line{
 
 @media all and (min-width: 414px) and (max-width: 767px){
     
-    nav{
+    header{
         display: flex;
         flex-direction: column;
         justify-content: space-between;
     }
 
+
+    .signup{
+        display: none;
+    }
 
     .top{
         display: flex;
@@ -591,3 +601,11 @@ i.fas.fa-chart-line{
  
 }
 
+@media all and (min-width: 767px) {
+
+    #sign1{
+        display: none;
+    }
+
+
+}
