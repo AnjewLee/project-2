@@ -59,12 +59,21 @@ nav a:hover{
     justify-content: space-around;
     align-content: center;
     flex-wrap: wrap;
-
+    border:1px solid #F2F2F2;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
 }
 
 .nav-link2 a{
     text-decoration: none;
     color: black;
+}
+
+.nav-link2 a:hover{
+    color:#0065FC;
+    cursor: pointer;
+    text-decoration: underline;
 }
 
 
