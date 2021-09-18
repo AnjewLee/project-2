@@ -53,6 +53,20 @@ nav a:hover{
     text-decoration: none;
 }
 
+.nav-link2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-link2 a{
+    text-decoration: none;
+    color: black;
+}
+
 
 
 .hero-container{
@@ -475,30 +489,36 @@ i.fas.fa-chart-line{
     
     header{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
 
-    #sign1{
-        margin: 0 0 0 190px;
-        color: #0065FC;
-        font-weight: bold
+    .logo{
+        display: flex;
+        flex-direction: column;
     }
+
     nav{
         display: flex;
     }
 
     #a1{
-        margin: 0
+        display: none
     }
 
     #a2{
-        margin: 0 0 0 130px;
-    }
-
-    .signup{
         display: none;
     }
+
+  
+
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
     .top{
         display: flex;
@@ -626,9 +646,6 @@ i.fas.fa-chart-line{
 
 @media all and (min-width: 741px) and (max-width: 1200px){
 
-    #sign1{
-        display: none;
-    }
 
     .hero-container{
         display: flex;
@@ -637,6 +654,10 @@ i.fas.fa-chart-line{
         align-content: center;
         width: auto;
         align-items: center;
+    }
+
+    .nav-link2{
+        display: none;
     }
 
     .top{
@@ -664,7 +685,8 @@ i.fas.fa-chart-line{
 
 @media all and (min-width: 1200px){
 
-    #sign1{
+    .nav-link2{
         display: none;
     }
+
 }
