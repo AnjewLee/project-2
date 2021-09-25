@@ -19,7 +19,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    margin: 1rem;
+    margin: 1rem 1.6rem;
     height: fit-content;
 }
 
@@ -90,6 +90,7 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: center;
     width: auto;
+    margin: 1rem;
 }
 
 .top{
@@ -473,20 +474,21 @@ i.fas.fa-chart-line{
 
 
 .footer-container{
+    display: flex;
     background-color: #F2F2F2;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 0;
-    padding:3rem 0rem 0rem 0rem;
+    padding:3rem 0rem 4rem 0rem;
 }
 
 .footer{
     display: flex;
     background-color: #F2F2F2;
-    width: 80%;
-    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin:0 auto;
+    margin:0 30rem 0 2rem;
     
 }
 
@@ -494,7 +496,6 @@ i.fas.fa-chart-line{
 .footer-heading{
     display: flex;
     flex-direction: column;
-    margin-right: 4rem;
 }
 
 .footer-heading h1{
@@ -572,7 +573,8 @@ i.fas.fa-chart-line{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        align-content: center
+        align-content: center;
+        margin: 0rem;
     }
 
     .container{
