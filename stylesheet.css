@@ -277,6 +277,7 @@ i.fas.fa-info.fa-xs{
     background-color: white;
     border-radius: 1rem;
     padding: 5px 3px;
+    box-shadow: 1px 2px 5px grey;
 }
 
 .part1{
@@ -356,6 +357,7 @@ i.fas.fa-chart-line{
     background-color: white;
     border-radius: 1rem;
     padding: 4px;
+    box-shadow: 1px 2px 5px grey;
 }
 
 .part2{
@@ -414,7 +416,7 @@ i.fas.fa-chart-line{
 .activities{
     flex-direction: row;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
@@ -476,11 +478,12 @@ i.fas.fa-chart-line{
     display: flex;
     flex-direction: column;
     margin: 1rem 0.5rem 1rem 0rem;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 1rem;
 }
 .column2{
     display: flex;
     flex-direction: column;
-    margin: 1rem 0.5rem 1rem 0rem;
     
     
 }
@@ -488,12 +491,14 @@ i.fas.fa-chart-line{
     display: flex;
     flex-direction: column;
     margin: 1rem 0.5rem 1rem 0rem;
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 1rem;
 }
 
 .column4{
     display:flex;
     flex-direction: column;
-    margin: 1rem 0.5rem 1rem 0rem;
+
 }
 
 .caption3{
