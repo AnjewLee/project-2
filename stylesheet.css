@@ -127,6 +127,7 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: center;
     width: auto;
+    margin: 1.5rem;
 }
 
 .top{
@@ -406,6 +407,7 @@ i.fas.fa-chart-line{
 
 .section3{
     width: 100%;
+    margin: 1rem;
 }
 
 .section3 h1{
