@@ -13,7 +13,6 @@ body{
     flex-wrap: wrap;
     margin: auto;
     max-width: 1200px;
-    align-content: center;
 }
 
 
@@ -285,7 +284,7 @@ i.fas.fa-info.fa-xs{
 
 .part1{
     height: 110px; 
-    width: 200px; 
+    width: 225px; 
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -318,12 +317,12 @@ i.fas.fa-info.fa-xs{
 }
 
 #show1{
-    margin: 0 0 0 1.5rem;
+    margin: 10px 0px 0px 40px;
     font-weight: 700;
 }
 
 #show2{
-    margin: 0 0 0 1.5rem;
+    margin: 0rem 0rem 0rem 1.5rem;
     font-weight: 700;
 }
 
@@ -428,7 +427,8 @@ i.fas.fa-chart-line{
 
 #oldport{
     height: 420px; 
-    width: 300px; 
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -436,7 +436,8 @@ i.fas.fa-chart-line{
 
 #pomegue{
     height: 205px; 
-    width: 300px;
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -444,16 +445,17 @@ i.fas.fa-chart-line{
 
 #frioul{
     height: 135px;
-    width: 300px;
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
-    margin-top: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
 #calanques{
     height: 420px;
-    width: 300px;
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -461,7 +463,8 @@ i.fas.fa-chart-line{
 
 #notre{
     height: 170px;
-    width: 300px;
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -469,9 +472,9 @@ i.fas.fa-chart-line{
 
 #longchamp{
     height: 170px;
-    width: 300px;
+    width: 100%;
+    min-width: 257px;
     object-fit: cover;
-    margin-top: 1rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
@@ -481,10 +484,13 @@ i.fas.fa-chart-line{
     flex-direction: column;
     box-shadow: 1px 2px 5px grey;
     border-radius: 1rem;
+    width: 22%;
 }
+
 .column2{
     display: flex;
     flex-direction: column;
+    width: 22%;
     
     
 }
@@ -493,11 +499,13 @@ i.fas.fa-chart-line{
     flex-direction: column;
     box-shadow: 1px 2px 5px grey;
     border-radius: 1rem;
+    width: 22%;
 }
 
 .column4{
     display:flex;
     flex-direction: column;
+    width: 22%;
 
 }
 
@@ -508,6 +516,20 @@ i.fas.fa-chart-line{
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     
+}
+
+#s1,#s2,#s3,#s4{
+    box-shadow: 1px 2px 5px grey;
+    border-radius: 1rem;
+
+}
+
+#s1{
+    margin-bottom: 24px;
+}
+
+#s3{
+    margin-bottom: 24px;
 }
 
 footer{
@@ -735,17 +757,25 @@ footer{
 
     .column1{
         margin: 1rem 0rem;
+        width: 80%;
+        min-width: 370px;
     }
     .column2{
         margin: 1rem 0rem;
+        width: 80%;
+        min-width: 370px;
         
     }
     .column3{
         margin: 1rem 0rem;
+        width: 80%;
+        min-width: 370px;
     }
     
     .column4{
         margin: 1rem 0.5rem 1rem 0rem;
+        width: 80%;
+        min-width: 370px;
     }
 
     
@@ -812,6 +842,16 @@ footer{
         width: 50%;
 
     }
+
+    .column1,.column2,.column3,.column4{
+        width: 40%;
+        margin: 24px;
+    }
+    
+    #pomegue,#frioul{
+        height: 170px;
+    }
+
 }
 
 @media all and (min-width: 809px){
@@ -823,4 +863,6 @@ footer{
     #show2{
         display: none;
     }
+
+
 }
