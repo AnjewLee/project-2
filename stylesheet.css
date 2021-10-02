@@ -1,6 +1,6 @@
 * { 
-    margin: 0;
-    padding: 0  ;
+    margin: 0rem;
+    padding: 0rem;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
@@ -58,7 +58,7 @@ nav a:hover{
 
 
 .nav-links a{
-    margin: 0 82px 0 0;
+    margin: 0px 82px 0px 0px;
     text-decoration: none;
     color: black;
 
@@ -98,7 +98,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     width: 50%;
-    padding: 0 0 0 0;
+    padding: 0px;
     height: 48px;
     flex-wrap: wrap;
     align-content: center;
@@ -116,7 +116,7 @@ nav a:hover{
     display: flex;
     justify-content: center;
     width: 50%;
-    padding: 0 0 0 0;
+    padding: 0px;
     height: 48px;
     flex-wrap: wrap;
     align-content: center;
@@ -150,7 +150,7 @@ nav a:hover{
 .top{
     display: flex;
     flex-direction: column;
-    margin:0 1rem;
+    margin:0rem 1rem;
 }
 
 .top h1{
@@ -187,7 +187,7 @@ input {
     padding: 17px 15px;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    margin: 0 0 0 -1;
+    margin: 0px 0px 0px -1px;
 }
 
 .search-button{
@@ -195,7 +195,7 @@ input {
     padding: 16px 15px;
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
-    margin: -1 -1 -1 1;
+    margin: -1px -1px -1px 1px;
     font-weight: bold;
     color: white;
 }
@@ -217,7 +217,7 @@ button{
     font-weight: bold;
     cursor: pointer;
     height: 44px;
-    padding: 0 7;
+    padding: 0px 7px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -241,7 +241,7 @@ button:hover {
 i.fas.fa-info.fa-xs{
     border: 2px solid #F2F2F2;
     border-radius: 1rem;
-    padding: 3 7;
+    padding: 3px 7px;
     margin: 0rem 1rem 1rem 0rem;
     color: #0065FC;
 
@@ -404,7 +404,7 @@ i.fas.fa-chart-line{
 
 
 .caption2{
-    margin: 0 0 0 1rem;
+    margin: 0rem 0rem 0rem 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -580,7 +580,7 @@ footer{
     background-color: #F2F2F2;
     width: 100%;
     height: auto;
-    margin: 0;
+    margin: 0rem;
     padding:2rem 0rem 4rem 0rem;
 }
 
@@ -590,7 +590,7 @@ footer{
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin:0 30rem 0 2rem;
+    margin:0rem 30rem 0rem 2rem;
     
 }
 
@@ -657,11 +657,12 @@ footer{
         display: flex;
         flex-direction: column;
         width: fit-content;
-        margin: 0 1rem 1rem 1rem;
+        margin: 0rem 1rem 1rem 1rem;
     }
 
     .top p{
         width: 100%;
+        margin: 12px 0px 17px 0px;
     }
 
     .top h1{
@@ -741,7 +742,7 @@ footer{
         align-items: center;
         border-radius: 1rem;
         padding: 4px;
-        margin:0rem
+        margin: 0rem
     }
 
     .i1{
@@ -761,7 +762,7 @@ footer{
     }
 
     #show1{
-        padding:0 1.5rem;
+        padding: 0rem 1.5rem;
         display: none;
     }
     
