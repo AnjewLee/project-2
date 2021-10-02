@@ -155,11 +155,12 @@ nav a:hover{
 
 .top h1{
     margin: .5rem 0rem 0rem 0rem;
+    font-size: 24px;
 }
 
 .top p{
-    margin: .5rem 0rem .5rem 0rem;
-    font-size: 0.90rem;
+    margin: 7px 31px 7px 0px;
+    font-size: 17px;
 }
 
 .search-bar {
@@ -251,6 +252,7 @@ i.fas.fa-info.fa-xs{
     justify-content: flex start;
     align-items: flex-start;
     width: 396px;
+    margin: 1rem 0rem;
 }
 
 .info a{
@@ -606,7 +608,7 @@ footer{
     text-decoration: none;
     margin-bottom: 0.5rem;
     color: black;
-    font-size: 0.85rem;
+    font-size: 14px;
 }
 
 
@@ -662,6 +664,10 @@ footer{
         width: 100%;
     }
 
+    .top h1{
+        margin-top: 1.5rem;
+    }
+
     .search-bar{
         width: 100%;
     }
@@ -693,10 +699,14 @@ footer{
 
     .section2{
         width: 100%;
-        margin: 0;
+        margin: 0rem;
         border-radius: 0rem;
         height: 570px;
 
+    }
+
+    .section2 h1{
+        font-size: 19px;
     }
 
     .info{
@@ -790,8 +800,7 @@ footer{
     .footer-container{
         width: auto;
         height: auto;
-        margin: 0;
-        padding:3rem 0rem 0rem 0rem;
+        margin: 0rem;
 
     }
 
