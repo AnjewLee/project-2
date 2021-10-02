@@ -792,6 +792,18 @@ footer{
         min-width: 370px;
     }
 
+    .search-button{
+        display: none;
+    }
+    
+    #searchicon{
+        background:#0065FC;
+        padding: 16px 15px;
+        padding: 17px;
+        font-weight: bold;
+        color: white;
+        border-radius: 1rem;
+    }
     
  
 }
@@ -865,6 +877,10 @@ footer{
     #pomegue,#frioul{
         height: 170px;
     }
+    
+    #searchicon{
+        display: none;
+    }
 
 }
 
@@ -878,5 +894,8 @@ footer{
         display: none;
     }
 
+    #searchicon{
+        display: none;
+    }
 
 }
