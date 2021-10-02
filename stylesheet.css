@@ -274,7 +274,8 @@ i.fas.fa-info.fa-xs{
 }
 
 .section1 h1{
-    margin: 2rem 1rem 1.5rem 1.5rem;
+    margin: 2rem 1rem 0.5rem 1.5rem;
+    font-size: 1.2rem;
 }
 
 .accomodations{
@@ -282,6 +283,7 @@ i.fas.fa-info.fa-xs{
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 22px;
 }
 
 .line1{
@@ -312,8 +314,9 @@ i.fas.fa-info.fa-xs{
 }
 
 .caption1 h2{
-    font-size: 0.6rem;
+    font-size: 0.9rem;
     margin: 0.5rem 0.5rem 0rem 0.5rem;
+    font-weight: 800;
 }
 
 .caption1 p{
@@ -337,6 +340,7 @@ i.fas.fa-info.fa-xs{
     color: #0065FC;
 }
 
+
 #show1{
     margin: 30px 0px 0px 40px;
     font-weight: 700;
@@ -351,14 +355,14 @@ i.fas.fa-info.fa-xs{
 .section2 a{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: space-between;
     width: 100%;
 }
 
 .section2 h1{ 
-    margin: 2rem 1rem 1.5rem 1.5rem;
-
+    margin: 2rem 1rem 0.5rem 1.5rem;
+    font-size: 1.2rem;
 }
 
 i.fas.fa-chart-line{
@@ -406,6 +410,13 @@ i.fas.fa-chart-line{
 
 .caption2 p{
     margin: 1rem 1rem 1rem 0rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.caption2 h2{
+    font-weight: 800;
+    font-size: 0.9rem;
 }
 
 .rating2{
@@ -434,7 +445,7 @@ i.fas.fa-chart-line{
 }
 
 .section3 h1{
-    margin: 1rem;
+    margin: 1rem 1rem 2rem 0rem;
 }
 
 .activities{
@@ -538,6 +549,10 @@ i.fas.fa-chart-line{
     
 }
 
+.caption3 h2{
+    font-weight: 800;
+}
+
 #s1,#s2,#s3,#s4{
     box-shadow: 1px 2px 5px grey;
     border-radius: 1rem;
@@ -563,7 +578,7 @@ footer{
     width: 100%;
     height: auto;
     margin: 0;
-    padding:3rem 0rem 4rem 0rem;
+    padding:2rem 0rem 4rem 0rem;
 }
 
 .footer{
