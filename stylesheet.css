@@ -7,6 +7,9 @@
     width: fit-content;
 }
 
+html{
+    margin: auto;
+}
 
 body{
     display: flex;
@@ -325,7 +328,7 @@ i.fas.fa-info.fa-xs{
 }
 
 #show1{
-    margin: 10px 0px 0px 40px;
+    margin: 30px 0px 0px 40px;
     font-weight: 700;
 }
 
@@ -521,9 +524,6 @@ i.fas.fa-chart-line{
 .caption3{
     font-weight: bold;
     padding: 1rem;
-    border: 1px solid #F2F2F2;
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
     
 }
 
