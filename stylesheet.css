@@ -130,6 +130,13 @@ nav a:hover{
 
 }
 
+.none{
+    text-decoration: none;
+}
+
+.fas.fa-map-marker-alt{
+    color: black;
+}
 
 .hero-container{
     display: flex;
@@ -385,7 +392,7 @@ i.fas.fa-chart-line{
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
-    padding: 4px;
+
 }
 
 
@@ -881,6 +888,10 @@ footer{
     
     #searchicon{
         display: none;
+    }
+
+    .i2{
+        padding: 0rem;
     }
 
 }
