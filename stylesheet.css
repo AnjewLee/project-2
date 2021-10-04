@@ -14,7 +14,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     flex-wrap: wrap;
     margin: auto;
     max-width: 1500px;
@@ -832,7 +832,7 @@ footer{
     }
     
     .column4{
-        margin: 1rem 0.5rem 1rem 0rem;
+        margin: 1rem 0rem;
         width: 80%;
         min-width: 370px;
     }
@@ -905,8 +905,8 @@ footer{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-around;
-        margin: 0rem 0rem 0rem 2rem;
+        justify-content: space-evenly;
+        margin: 0rem;
     }
 
     .activities{
