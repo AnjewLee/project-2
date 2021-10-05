@@ -6,6 +6,9 @@
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     width: fit-content;
+    text-decoration: none;
+    color: black;
+
 }
 
 html{
@@ -299,6 +302,9 @@ i.fas.fa-info.fa-xs{
     width: 100%;
 }
 
+.l1{
+    width: 25%;
+}
 
 .i1{
     background-color: white;
@@ -306,7 +312,7 @@ i.fas.fa-info.fa-xs{
     padding: 4px;
     box-shadow: 1px 2px 5px grey;
     min-width: 185px;
-    width: 25%;
+    width: 100%;
 }
 
 .part1{
@@ -358,7 +364,7 @@ i.fas.fa-info.fa-xs{
 }
 
 
-.section2 a{
+.pop2{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -385,11 +391,18 @@ i.fas.fa-chart-line{
   
 }
 
+.l2{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    
+}
+
 .i2{
     display: flex;
     align-items: center;
     margin: 16px;
-    width: 80%;
+    width: 100%;
     min-width: 280px;
     background-color: white;
     border-radius: 16px;
@@ -523,8 +536,6 @@ i.fas.fa-chart-line{
 .column1{
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 2px 5px grey;
-    border-radius: 1rem;
     width: 23%;
 }
 
@@ -538,8 +549,6 @@ i.fas.fa-chart-line{
 .column3{
     display: flex;
     flex-direction: column;
-    box-shadow: 1px 2px 5px grey;
-    border-radius: 1rem;
     width: 23%;
 }
 
@@ -561,18 +570,18 @@ i.fas.fa-chart-line{
     white-space: nowrap;
 }
 
-#s1,#s2,#s3,#s4{
+#s1,#s2,#s3,#s4,#s5,#s6{
     box-shadow: 1px 2px 5px grey;
     border-radius: 1rem;
     width: 100%;
 
 }
 
-#s1{
+#s2{
     margin-bottom: 24px;
 }
 
-#s3{
+#s5{
     margin-bottom: 24px;
 }
 
@@ -650,6 +659,11 @@ footer{
     }
 
   
+    .l1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
 
     .nav-links{
         display: flex;
