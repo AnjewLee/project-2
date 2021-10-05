@@ -1,14 +1,15 @@
 * { 
+    border: 0rem;
     margin: 0rem;
     padding: 0rem;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     width: fit-content;
 }
 
 html{
-    margin: auto;
+    max-width: 1500px;
 }
 
 body{
@@ -22,6 +23,9 @@ body{
 
 section{
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 0px;
 }
 
 header{
@@ -29,7 +33,7 @@ header{
     justify-content: space-between;
     align-items: center;
     height: 80px;
-    margin: 1rem 1.6rem;
+    margin: 16px;
     width: auto;
 }
 
@@ -260,22 +264,23 @@ i.fas.fa-info.fa-xs{
 .container{
     display: flex;
     width: 100%;
-    height: fit-content;
     margin: auto;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .section1{
     background-color:#F2F2F2;
-    width: 66%;
+    width: 65%;
     height: 610px;
     border-radius:1rem;
-    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 .section1 h1{
-    margin: 2rem 1rem 0.5rem 1.5rem;
     font-size: 1.2rem;
+    margin: 30px 0px 10px 47px;
 }
 
 .accomodations{
@@ -283,25 +288,24 @@ i.fas.fa-info.fa-xs{
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 22px;
+    height: 75%;
+    justify-content: space-evenly;
 }
 
 .line1{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 1rem 0rem;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 
 .i1{
-    margin: 0rem 1rem;
     background-color: white;
     border-radius: 1rem;
     padding: 4px;
     box-shadow: 1px 2px 5px grey;
-    min-width: 225px;
+    min-width: 185px;
     width: 25%;
 }
 
@@ -310,7 +314,7 @@ i.fas.fa-info.fa-xs{
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
-    min-width: 218px;
+    min-width: 175px;
     width: 100%;
 }
 
@@ -343,7 +347,7 @@ i.fas.fa-info.fa-xs{
 
 
 #show1{
-    margin: 30px 0px 0px 40px;
+    margin: 30px 0px 0px 47px;
     font-weight: 700;
 }
 
@@ -383,9 +387,9 @@ i.fas.fa-chart-line{
 .i2{
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin: 16px;
     width: 80%;
-    min-width: 370px;
+    min-width: 280px;
     background-color: white;
     border-radius: 1rem;
     padding: 4px;
@@ -427,10 +431,9 @@ i.fas.fa-chart-line{
 
 .section2{
     background-color: #F2F2F2;
-    width: 33%;
+    width: 32%;
     height: 610px;
     border-radius: 1rem;
-    margin: 0.5rem;
 }
 
 .container2{
@@ -464,7 +467,7 @@ i.fas.fa-chart-line{
 #oldport{
     height: 420px; 
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -473,7 +476,7 @@ i.fas.fa-chart-line{
 #pomegue{
     height: 205px; 
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -482,7 +485,7 @@ i.fas.fa-chart-line{
 #frioul{
     height: 135px;
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -491,7 +494,7 @@ i.fas.fa-chart-line{
 #calanques{
     height: 420px;
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -500,7 +503,7 @@ i.fas.fa-chart-line{
 #notre{
     height: 170px;
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -509,7 +512,7 @@ i.fas.fa-chart-line{
 #longchamp{
     height: 170px;
     width: 100%;
-    min-width: 257px;
+    min-width: 215px;
     object-fit: cover;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
@@ -547,7 +550,7 @@ i.fas.fa-chart-line{
 
 .caption3{
     font-weight: bold;
-    padding: 1rem;
+    padding: 16px;
     
 }
 
@@ -611,7 +614,7 @@ footer{
 }
 
 
-@media all and (max-width: 386px){
+@media all and (max-width: 768px){
     body{
         margin: 0rem;
 
@@ -729,7 +732,6 @@ footer{
 
     .accomodations{
         align-items: center;
-        margin-top: 0px;
     }
     
 
@@ -741,7 +743,8 @@ footer{
         align-items: center;
         border-radius: 1rem;
         padding: 4px;
-        margin: 0rem
+        margin: 0rem;
+        height: 100%;
     }
 
 
@@ -859,9 +862,12 @@ footer{
         margin: 8px;
     }
  
+    .caption2 h2{
+        width: 70%;
+    }
 }
 
-@media all and (min-width: 386px) and (max-width: 809px){
+@media all and (min-width: 768px) and (max-width: 992px){
 
 
     .hero-container{
@@ -941,7 +947,7 @@ footer{
 
 }
 
-@media all and (min-width: 809px){
+@media all and (min-width: 992px){
 
     .nav-link2{
         display: none;
