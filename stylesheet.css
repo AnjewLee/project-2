@@ -556,6 +556,7 @@ i.fas.fa-chart-line{
 
 .caption3 h2{
     font-weight: 800;
+    white-space: nowrap;
 }
 
 #s1,#s2,#s3,#s4{
@@ -682,7 +683,7 @@ footer{
     }
 
     button{
-        margin: 0.5rem 0.5rem 0.5rem 0rem;
+        margin: 8px 8px 8px 0px;
     }
 
     .hero-container{
@@ -690,7 +691,7 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
-        margin: 0rem;
+        margin: 0px;
     }
 
     .container{
@@ -702,8 +703,8 @@ footer{
 
     .section2{
         width: 100%;
-        margin: 0rem;
-        border-radius: 0rem;
+        margin: 0px;
+        border-radius: 0px;
         height: 570px;
 
     }
@@ -723,7 +724,7 @@ footer{
         flex-wrap: wrap;
         flex-direction: column;
         width: 100%;
-        margin: 0rem;
+        margin: 0px;
     }
 
     .section1 h1{
@@ -742,7 +743,7 @@ footer{
         flex-wrap: wrap;
         width: 100%;
         align-items: center;
-        border-radius: 1rem;
+        border-radius: 16px;
         padding: 4px;
         margin: 0rem;
         height: 100%;
@@ -752,9 +753,9 @@ footer{
 
     .i1{
         border: 1px solid #F2F2F2;
-        border-bottom-left-radius: 1rem;
-        border-bottom-right-radius: 1rem;
-        margin: 1rem 0rem;
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+        margin: 16px 0px;
         width: 80%;
         min-width: 370px;
     }
@@ -767,12 +768,12 @@ footer{
     }
 
     #show1{
-        padding: 0rem 1.5rem;
+        padding: 0px 8px;
         display: none;
     }
     
     .i2{
-        margin: 0.5rem;
+        margin: 8px;
     }
     
     .section3{
@@ -806,7 +807,7 @@ footer{
     .footer-container{
         width: auto;
         height: auto;
-        margin: 0rem;
+        margin: 0px;
 
     }
 
@@ -815,7 +816,7 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 0rem 0rem 0rem 2rem;
+        margin: 0px 0px 0px 32px;
     }
 
     .column1{
@@ -830,13 +831,13 @@ footer{
         
     }
     .column3{
-        margin: 1rem 0rem;
+        margin: 16px 0px;
         width: 80%;
         min-width: 370px;
     }
     
     .column4{
-        margin: 1rem 0rem;
+        margin: 16px 0px;
         width: 80%;
         min-width: 370px;
     }
@@ -859,7 +860,7 @@ footer{
     }
 
     .caption1 p{
-        font-size: 1rem;
+        font-size: 16px;
         margin: 8px;
     }
  
@@ -914,7 +915,7 @@ footer{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin: 0rem;
+        margin: 0px;
     }
 
     .activities{
@@ -922,7 +923,7 @@ footer{
     }
 
     .caption2{
-        margin-right: 1rem;
+        margin-right: 16px;
     }
 
     .part2{
@@ -944,7 +945,8 @@ footer{
     }
 
     .i2{
-        padding: 0rem;
+        padding: 0px;
+        max-width: 580px;
     }
 
 }
