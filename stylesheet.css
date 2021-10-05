@@ -718,7 +718,7 @@ footer{
 
     .section1{
         background-color: white;
-        height: fit-content;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
