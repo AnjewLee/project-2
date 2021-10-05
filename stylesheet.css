@@ -9,7 +9,7 @@
 }
 
 html{
-    max-width: 1500px;
+    margin: auto;
 }
 
 body{
@@ -17,7 +17,6 @@ body{
     flex-direction: column;
     width: auto;
     flex-wrap: wrap;
-    margin: auto;
     max-width: 1500px;
 }
 
@@ -147,7 +146,7 @@ nav a:hover{
     flex-wrap: wrap;
     align-content: center;
     width: auto;
-    margin: 0.5rem;
+    margin: 8px;
 }
 
 .top{
@@ -440,17 +439,17 @@ i.fas.fa-chart-line{
     display: flex;
     width: 100%;
     height: auto;
-    margin: 1rem 0rem 0rem 0rem;
+    margin: 16px 0px;
     justify-content: space-between;
 }
 
 .section3{
     width: 100%;
-    margin: 1rem;
+    margin: 16px;
 }
 
 .section3 h1{
-    margin: 1rem 1rem 2rem 0rem;
+    margin: 16px 16px 32px 0px;
 }
 
 .activities{
@@ -728,6 +727,7 @@ footer{
 
     .section1 h1{
         font-size: 26px;
+        margin: 30px 16px 10px 16px;
     }
 
     .accomodations{
@@ -779,18 +779,20 @@ footer{
         flex-direction: column;
         flex-wrap: wrap;
         width: 100%;
-        align-content: center;
+        align-content: flex-start;
+        margin: 0px;
     }
 
     .section3 h1{
         font-size: 27px;
-        margin-bottom: 1rem;
+        margin-bottom: 16px;
+        margin-left: 16px;
     }
 
 
     .activities{
         display: flex;
-        width: auto;
+        width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         align-items: center;
@@ -798,8 +800,6 @@ footer{
 
     #oldport,#pomegue,#frioul,#calanques,#notre,#longchamp{
         height: 150px; 
-        width: 80%;
-        min-width: 370px;
     }
 
     .footer-container{
@@ -818,12 +818,12 @@ footer{
     }
 
     .column1{
-        margin: 1rem 0rem;
+        margin: 16px;
         width: 80%;
         min-width: 370px;
     }
     .column2{
-        margin: 1rem 0rem;
+        margin: 16px;
         width: 80%;
         min-width: 370px;
         
