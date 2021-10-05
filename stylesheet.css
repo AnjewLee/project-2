@@ -86,7 +86,6 @@ nav a:hover{
     border-top-color: white;
     border-left-color: white;
     border-right-color: white;
-    padding: 0px;
     width: 100%;
 }
 
@@ -642,7 +641,6 @@ footer{
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
-        width: 87%;
     }
 
     .logo{
@@ -736,6 +734,7 @@ footer{
 
     .section2 h1{
         font-size: 26px;
+        margin-left: 30px;
     }
 
     .info{
@@ -803,6 +802,7 @@ footer{
     
     i.fas.fa-chart-line{
         font-size: 26px;
+        margin-right: 30px;
     }
 
     .section3{
