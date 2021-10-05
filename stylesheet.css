@@ -625,6 +625,11 @@ footer{
     font-size: 14px;
 }
 
+.l3{
+    display: flex;
+    width: 100%;
+}
+
 
 @media all and (max-width: 768px){
     body{
@@ -663,6 +668,10 @@ footer{
         width: 100%;
         display: flex;
         justify-content: center;
+    }
+
+    .l2{
+        max-width: 550px;
     }
 
     .nav-links{
